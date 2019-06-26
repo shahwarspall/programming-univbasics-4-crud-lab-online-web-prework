@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   
-  add_element_to_end_of_array << "Amy"
+  [add_element_to_end_of_array << ( given 0,expected 2 )]
   
 end
 
@@ -18,6 +18,8 @@ end
 
 def remove_element_from_end_of_array(array)
   
+  
+  
 end
 
 def remove_element_from_start_of_array(array)
@@ -25,7 +27,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  retrieve_element_from_index [0]
 end
 
 def retrieve_first_element_from_array(array)
